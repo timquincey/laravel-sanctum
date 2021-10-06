@@ -8,7 +8,7 @@
 
 ## Routes
 
-- Register new user: POST `/api/register`
+- Register new user: **POST** `/api/register`
 
 ```
 {
@@ -19,13 +19,13 @@
 }
 ```
 
-- Logout user and destroy tokens: POST `/api/logout`
+- Logout user and destroy tokens: **POST** `/api/logout`
 
-- Login user: POST `/api/login`
+- Login user: **POST** `/api/login`
 
 ```
 {
     "name": "Name",
-    "password": "password",
+    "password": "password"
 }
 ```
